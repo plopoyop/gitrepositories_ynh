@@ -1,0 +1,34 @@
+{
+    "name": "Git Repositories",
+    "id": "git-repositories",
+    "description": {
+        "en": "",
+        "fr": ""
+    },
+    "developer": {
+        "name": "plopoyop",
+        "email": "plopoyop@gmail.com"
+    },
+    "multi_instance": "false",
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "ask": {
+                    "en": "Choose a domain for FreshRSS",
+                    "fr": "Choisissez un domaine pour FreshRSS"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "ask": {
+                    "en": "Choose a path for FreshRSS",
+                    "fr": "Choisissez un chemin pour FreshRSS"
+                },
+                "example": "/git",
+                "default": "/git"
+			}
+        ]
+    }
+}

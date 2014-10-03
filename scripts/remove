@@ -1,0 +1,10 @@
+#!/bin/bash
+
+domain=$(sudo yunohost app setting git-repositories domain)
+
+sudo rm -rf /var/www/git-repositories/
+sudo rm -rf /etc/nginx/conf.d/$domain.d/git-repositories.conf
+sudo rm -rf /etc/nginx/conf.d/$domain.d/git-repositories-public.conf
+sudo rm -rf /etc/nginx/conf.d/$domain.d/git-repositories-shared.conf
+
+sudo service nginx reload
