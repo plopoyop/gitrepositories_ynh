@@ -15,16 +15,16 @@
             {
                 "name": "domain",
                 "ask": {
-                    "en": "Choose a domain for FreshRSS",
-                    "fr": "Choisissez un domaine pour FreshRSS"
+                    "en": "Choose a domain for Git repositories",
+                    "fr": "Choisissez un domaine pour Git repositories"
                 },
                 "example": "domain.org"
             },
             {
                 "name": "path",
                 "ask": {
-                    "en": "Choose a path for FreshRSS",
-                    "fr": "Choisissez un chemin pour FreshRSS"
+                    "en": "Choose a path for Git repositories",
+                    "fr": "Choisissez un chemin pour Git repositories"
                 },
                 "example": "/git",
                 "default": "/git"
